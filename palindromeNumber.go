@@ -1,11 +1,5 @@
 package main
 
-import "fmt"
-
-func main() {
-	fmt.Println(isPalindrome(100001))
-}
-
 func isPalindrome(x int) bool {
 	initialX := x
 	newNum := 0
@@ -24,6 +18,5 @@ func isPalindrome(x int) bool {
 			x = 0
 		}
 	}
-	fmt.Println(newNum)
 	return newNum == initialX
 }
