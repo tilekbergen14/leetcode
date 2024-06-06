@@ -3,10 +3,5 @@ package main
 import "fmt"
 
 func main() {
-	fmt.Println(isValid("[({(())}[()])]"))
+	fmt.Println(myAtoi("9223372036854775808"))
 }
-
-// "{[]}" --> true
-// "([)]" --> false
-// "{[]}" --> true
-// [({(())}[()])] --> true
