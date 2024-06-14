@@ -1,6 +1,9 @@
 package main
 
+import "fmt"
+
 func main() {
-	arr1 := []int{0}
-	sortColors(arr1)
+	arr := []int{3, 2, 1, 2, 1, 7}
+
+	fmt.Println(minIncrementForUnique(arr))
 }
